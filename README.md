@@ -6,8 +6,8 @@
 hibernate-release-4.2.4.Final\lib\optional\c3p0\*.jar
 
 2). 加入配置:
-
-hibernate.c3p0.max_size: 数据库连接池的最大连接数
+  
+hibernate.c3p0.max_size: 数据库连接池的最大连接数  
 hibernate.c3p0.min_size: 数据库连接池的最小连接数
 hibernate.c3p0.acquire_increment: 当数据库连接池中的连接耗尽时, 同一时刻获取多少个数据库连接  
 
